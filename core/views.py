@@ -1,8 +1,6 @@
 from django.shortcuts import render
 
-# Create your views here.
-from django.http import HttpResponse
-
 
 def index(request):
-    return HttpResponse("Hello, world. You're at the polls index.")
+    template_variables = {'a': 1, 'b': 2}
+    return render(request, 'core/index.html', template_variables)

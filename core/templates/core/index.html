@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block title %}
+	Open Weather Map
+{% endblock %}
+
+{% block content %}
+	{% for entry in blog_entries %}
+		<h2>{{ entry.title }}</h2>
+		<p>{{ entry.body }}</p>
+	{% endfor %}
+{% endblock %}
