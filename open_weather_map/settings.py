@@ -79,8 +79,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'open_weather_map',
-        'USER': 'blah',
-        'PASSWORD': 'mhlengi',
+        'USER': '',
+        'PASSWORD': '',
         'HOST': '127.0.0.1',
         'PORT': '',
         'TEST': {
